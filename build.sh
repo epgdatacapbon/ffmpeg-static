@@ -85,15 +85,15 @@ cd $BUILD_DIR
   "http://www.tortall.net/projects/yasm/releases/"
 
 [ $is_x86 -eq 1 ] && download \
-  "nasm-2.14.02.tar.bz2" \
+  "nasm-2.15.05.tar.bz2" \
   "" \
-  "3f489aa48ad2aa1f967dc5e293bbd06f" \
-  "https://www.nasm.us/pub/nasm/releasebuilds/2.14.02/"
+  "nil" \
+  "https://www.nasm.us/pub/nasm/releasebuilds/2.15.05/"
 
 download \
-  "OpenSSL_1_0_2o.tar.gz" \
+  "OpenSSL_1_0_2u.tar.gz" \
   "" \
-  "5b5c050f83feaa0c784070637fac3af4" \
+  "nil" \
   "https://github.com/openssl/openssl/archive/"
 
 download \
@@ -109,52 +109,52 @@ download \
   "https://code.videolan.org/videolan/x264/-/archive/stable/"
 
 download \
-  "x265_2.7.tar.gz" \
+  "x265_3.4.tar.gz" \
   "" \
-  "b0d7d20da2a418fa4f53a559946ea079" \
+  "nil" \
   "http://download.openpkg.org/components/cache/x265/"
 
 download \
-  "v0.1.6.tar.gz" \
+  "v2.0.1.tar.gz" \
   "fdk-aac.tar.gz" \
-  "223d5f579d29fb0d019a775da4e0e061" \
+  "nil" \
   "https://github.com/mstorsjo/fdk-aac/archive"
 
 # libass dependency
 download \
-  "harfbuzz-1.4.6.tar.bz2" \
+  "harfbuzz-2.6.7.tar.xz" \
   "" \
-  "e246c08a3bac98e31e731b2a1bf97edf" \
+  "nil" \
   "https://www.freedesktop.org/software/harfbuzz/release/"
 
 download \
-  "fribidi-1.0.2.tar.bz2" \
+  "fribidi-1.0.10.tar.xz" \
   "" \
-  "bd2eb2f3a01ba11a541153f505005a7b" \
-  "https://github.com/fribidi/fribidi/releases/download/v1.0.2/"
+  "nil" \
+  "https://github.com/fribidi/fribidi/releases/download/v1.0.10/"
 
 download \
-  "0.13.6.tar.gz" \
-  "libass-0.13.6.tar.gz" \
+  "0.15.0.tar.gz" \
+  "libass-0.15.0.tar.gz" \
   "nil" \
   "https://github.com/libass/libass/archive/"
 
 download \
-  "lame-3.99.5.tar.gz" \
+  "lame-3.100.tar.gz" \
   "" \
-  "84835b313d4a8b68f5349816d33e07ce" \
-  "http://downloads.sourceforge.net/project/lame/lame/3.99"
+  "nil" \
+  "http://downloads.sourceforge.net/project/lame/lame/3.100/"
 
 download \
-  "opus-1.1.2.tar.gz" \
+  "opus-1.3.1.tar.gz" \
   "" \
-  "1f08a661bc72930187893a07f3741a91" \
-  "https://github.com/xiph/opus/releases/download/v1.1.2"
+  "nil" \
+  "https://github.com/xiph/opus/releases/download/v1.3.1/"
 
 download \
-  "v1.6.1.tar.gz" \
-  "vpx-1.6.1.tar.gz" \
-  "b0925c8266e2859311860db5d76d1671" \
+  "v1.9.0.tar.gz" \
+  "vpx-1.9.0.tar.gz" \
+  "nil" \
   "https://github.com/webmproject/libvpx/archive"
 
 download \
@@ -164,45 +164,45 @@ download \
   "https://rtmpdump.mplayerhq.hu/download/"
 
 download \
-  "soxr-0.1.2-Source.tar.xz" \
+  "soxr-0.1.3-Source.tar.xz" \
   "" \
-  "0866fc4320e26f47152798ac000de1c0" \
+  "nil" \
   "https://sourceforge.net/projects/soxr/files/"
 
 download \
-  "release-0.98b.tar.gz" \
-  "vid.stab-release-0.98b.tar.gz" \
-  "299b2f4ccd1b94c274f6d94ed4f1c5b8" \
+  "v1.1.0.tar.gz" \
+  "vid.stab-1.1.0.tar.gz" \
+  "nil" \
   "https://github.com/georgmartius/vid.stab/archive/"
 
 download \
-  "release-2.7.4.tar.gz" \
-  "zimg-release-2.7.4.tar.gz" \
-  "1757dcc11590ef3b5a56c701fd286345" \
+  "release-3.0.1.tar.gz" \
+  "zimg-release-3.0.1.tar.gz" \
+  "nil" \
   "https://github.com/sekrit-twc/zimg/archive/"
 
 download \
-  "v2.1.2.tar.gz" \
-  "openjpeg-2.1.2.tar.gz" \
-  "40a7bfdcc66280b3c1402a0eb1a27624" \
+  "v2.3.1.tar.gz" \
+  "openjpeg-2.3.1.tar.gz" \
+  "nil" \
   "https://github.com/uclouvain/openjpeg/archive/"
 
 download \
-  "v0.6.1.tar.gz" \
-  "libwebp-0.6.1.tar.gz" \
-  "1c3099cd2656d0d80d3550ee29fc0f28" \
+  "v1.1.0.tar.gz" \
+  "libwebp-1.1.0.tar.gz" \
+  "nil" \
   "https://github.com/webmproject/libwebp/archive/"
 
 download \
-  "v1.3.6.tar.gz" \
-  "vorbis-1.3.6.tar.gz" \
-  "03e967efb961f65a313459c5d0f4cbfb" \
+  "v1.3.7.tar.gz" \
+  "vorbis-1.3.7.tar.gz" \
+  "nil" \
   "https://github.com/xiph/vorbis/archive/"
 
 download \
-  "v1.3.3.tar.gz" \
-  "ogg-1.3.3.tar.gz" \
-  "b8da1fe5ed84964834d40855ba7b93c2" \
+  "v1.3.4.tar.gz" \
+  "ogg-1.3.4.tar.gz" \
+  "nil" \
   "https://github.com/xiph/ogg/archive/"
 
 download \
@@ -212,9 +212,9 @@ download \
   "https://github.com/xiph/speex/archive/"
 
 download \
-  "n4.0.tar.gz" \
-  "ffmpeg4.0.tar.gz" \
-  "4749a5e56f31e7ccebd3f9924972220f" \
+  "n4.3.1.tar.gz" \
+  "ffmpeg4.3.1.tar.gz" \
+  "nil" \
   "https://github.com/FFmpeg/FFmpeg/archive"
 
 [ $download_only -eq 1 ] && exit 0
@@ -353,14 +353,11 @@ make -j $jval
 make install
 
 echo "*** Building libvidstab ***"
-cd $BUILD_DIR/vid.stab-release-*
-[ $rebuild -eq 1 -a -f Makefile ] && make distclean || true
-if [ "$platform" = "linux" ]; then
-  sed -i "s/vidstab SHARED/vidstab STATIC/" ./CMakeLists.txt
-elif [ "$platform" = "darwin" ]; then
-  sed -i "" "s/vidstab SHARED/vidstab STATIC/" ./CMakeLists.txt
+cd $BUILD_DIR/vid.stab-*
+if [ ! -f CMakeLists.txt.bak ]; then # Change CFLAGS.
+  sed -i.bak "s/O3/O2/;s/ -fPIC//" CMakeLists.txt
 fi
-PATH="$BIN_DIR:$PATH" cmake -G "Unix Makefiles" -DCMAKE_INSTALL_PREFIX="$TARGET_DIR"
+PATH="$BIN_DIR:$PATH" cmake -G "Unix Makefiles" -DBUILD_SHARED_LIBS=0 -DCMAKE_INSTALL_PREFIX="$TARGET_DIR"
 make -j $jval
 make install
 
@@ -432,6 +429,8 @@ if [ "$platform" = "linux" ]; then
     --enable-frei0r \
     --enable-gpl \
     --enable-version3 \
+    --enable-nonfree \
+    --enable-openssl \
     --enable-libass \
     --enable-libfribidi \
     --enable-libfdk-aac \
@@ -454,8 +453,9 @@ if [ "$platform" = "linux" ]; then
     --enable-libx265 \
     --enable-libxvid \
     --enable-libzimg \
-    --enable-nonfree \
-    --enable-openssl
+    --disable-debug \
+    --disable-doc \
+    --disable-manpages
 elif [ "$platform" = "darwin" ]; then
   [ ! -f config.status ] && PATH="$BIN_DIR:$PATH" \
   PKG_CONFIG_PATH="${TARGET_DIR}/lib/pkgconfig:/usr/local/lib/pkgconfig:/usr/local/share/pkgconfig:/usr/local/Cellar/openssl/1.0.2o_1/lib/pkgconfig" ./configure \
@@ -472,6 +472,8 @@ elif [ "$platform" = "darwin" ]; then
     --enable-frei0r \
     --enable-gpl \
     --enable-version3 \
+    --enable-nonfree \
+    --enable-openssl \
     --enable-libass \
     --enable-libfribidi \
     --enable-libfdk-aac \
@@ -492,8 +494,9 @@ elif [ "$platform" = "darwin" ]; then
     --enable-libx265 \
     --enable-libxvid \
     --enable-libzimg \
-    --enable-nonfree \
-    --enable-openssl
+    --disable-debug \
+    --disable-doc \
+    --disable-manpages
 fi
 
 PATH="$BIN_DIR:$PATH" make -j $jval
